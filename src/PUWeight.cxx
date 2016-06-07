@@ -13,7 +13,7 @@ PUWeight::Scenario PUWeight::toScenario(const std::string& str) {
     std::cerr << "\n\nERROR unknown scenario '" << str << "'" << std::endl;
     throw std::exception();
   }
-
+ 
   return sc;
 }
 
